@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "site": "vite site",
+    "build": "vite build",
+    "release": "bumpp"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,8 @@
     "@mistjs/eslint-config-vue": "^0.0.2",
     "@mistjs/tsconfig-vue": "^0.0.2",
     "@types/node": "^18.0.3",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue-jsx": "^1.3.10",
     "bumpp": "^8.2.1",
     "eslint": "^8.19.0",
     "typescript": "^4.7.4",
